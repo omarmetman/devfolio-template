@@ -1,0 +1,17 @@
+{
+  "name": "devfolio-template",
+  "version": "1.0.0",
+  "description": "قالب صفحة شخصية للمطورين — Dark Theme, SPA, جاهز للنشر على Vercel",
+  "main": "index.html",
+  "scripts": {
+    "dev": "echo 'Open index.html in browser'",
+    "start": "echo 'Open index.html in browser'"
+  },
+  "keywords": ["portfolio", "template", "developer", "dark-theme", "spa"],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

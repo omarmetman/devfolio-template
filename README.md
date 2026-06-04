@@ -1,36 +1,13 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00e5ff&height=250&section=header&text=DevFolio&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Your%20Next%20Developer%20Portfolio&descAlignY=60&descAlign=50" alt="DevFolio Header" width="100%" />
+  <h1 align="center">✨ DevFolio Template ✨</h1>
+  <h3>A Sleek, Modern, and Highly Customizable Developer Portfolio</h3>
 
-  <a href="https://readme-typing-svg.herokuapp.com">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=9d00ff&center=true&vCenter=true&width=600&lines=Modern+Dark+Theme+Design;Fully+Responsive+%26+Fast;Easy+to+Customize+in+Minutes;Direct+Vercel+Deployment" alt="Typing SVG" />
-  </a>
+  <p align="center">
+    <a href="https://github.com/omarmetman/devfolio-template/stargazers"><img src="https://img.shields.io/github/stars/omarmetman/devfolio-template?style=flat-square&color=00e5ff&logo=github&logoColor=white" alt="Stars" /></a>
+    <a href="https://github.com/omarmetman/devfolio-template/network/members"><img src="https://img.shields.io/github/forks/omarmetman/devfolio-template?style=flat-square&color=9d00ff&logo=github&logoColor=white" alt="Forks" /></a>
+    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-success?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="License"></a>
+  </p>
 
-  <br>
-
-  <!-- Repo Stats Badges -->
-  <a href="https://github.com/omarmetman/devfolio-template/stargazers"><img src="https://img.shields.io/github/stars/omarmetman/devfolio-template?style=for-the-badge&color=FFD700&logo=github&logoColor=white" alt="Stars" /></a>
-  <a href="https://github.com/omarmetman/devfolio-template/network/members"><img src="https://img.shields.io/github/forks/omarmetman/devfolio-template?style=for-the-badge&color=007EC6&logo=github&logoColor=white" alt="Forks" /></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-28A745?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License: MIT"></a>
-
-  <br><br>
-  <b><a href="#-about-devfolio">About</a></b> •
-  <b><a href="#-features-v2">Features</a></b> •
-  <b><a href="#-quick-start">Quick Start</a></b> •
-  <b><a href="#-project-structure">Structure</a></b> •
-  <b><a href="#-deployment">Deployment</a></b>
-</div>
-
-<br>
-
----
-
-## 📖 About DevFolio
-
-**DevFolio** هو قالب جاهز لصفحة شخصية (Portfolio) مخصص للمطورين. مصمم بأحدث التقنيات مع تركيز خاص على الأداء، تجربة المستخدم، والمظهر الجمالي الحديث (Dark Theme مع لمسات من الـ Cyan والـ Purple).
-
-الهدف من هذا القالب هو توفير عناء بناء صفحة شخصية من الصفر؛ كل ما تحتاجه هو عمل **Fork**، وتعديل بياناتك، ورفع الموقع مباشرة بضغطة زر.
-
-<div align="center">
   <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fomarmetman%2Fdevfolio-template">
     <img src="https://vercel.com/button" alt="Deploy with Vercel" />
   </a>
@@ -38,116 +15,133 @@
 
 ---
 
-## ✨ Features (v2)
-
-تم تصميم هذا القالب ليكون ديناميكياً وتفاعلياً بأقل جهد ممكن:
-
-| 🚀 الميزة | 📝 الوصف |
-| :--- | :--- |
-| **Dark / Light Mode** | دعم كامل للوضع الليلي والنهاري مع حفظ تفضيلات المستخدم في `localStorage`. |
-| **Glassmorphism Design** | تأثيرات زجاجية أنيقة وخلفيات متدرجة تبرز أعمالك. |
-| **Scroll Animations** | ظهور انسيابي للعناصر (Scroll Reveal) عند التمرير لأسفل الصفحة. |
-| **Typing Effect** | تأثير الكتابة المتحركة لألقابك المهنية، قابل للتخصيص بالكامل. |
-| **Interactive Components** | شرائط تقدم للمهارات (Skill Bars)، وعدادات إحصائيات متحركة. |
-| **Experience Timeline** | عرض احترافي لخبراتك العملية والتعليمية في شكل مسار زمني. |
-| **Telegram Contact Form** | نموذج تواصل يرسل الرسائل مباشرة إلى حسابك على تليجرام مع نظام تحقق (Validation). |
-| **SEO Optimized** | يتضمن `JSON-LD Structured Data` لتحسين ظهورك في محركات البحث. |
-| **Fully Responsive** | متوافق تماماً مع جميع الأجهزة (موبايل، تابلت، ديسكتوب). |
-
----
-
-## 🛠️ Tech Stack
+## 📸 Preview
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,github,vercel&perline=5" alt="Tech Stack" />
+  <img src="https://i.ibb.co/MDTgMwFh/Screenshot-2026-06-04-183329.png" width="49%" alt="Preview 1">
+  <img src="https://i.ibb.co/q3Y0vrHM/Screenshot-2026-06-04-183343.png" width="49%" alt="Preview 2">
+  <br>
+  <br>
+  <img src="https://i.ibb.co/hRJJLjsx/Screenshot-2026-06-04-183354.png" width="49%" alt="Preview 3">
+  <img src="https://i.ibb.co/VpTXRPVb/Screenshot-2026-06-04-183404.png" width="49%" alt="Preview 4">
 </div>
 
 ---
 
-## 🚀 Quick Start (البدء السريع)
+## 🚀 About The Project
 
-لتبدأ في تخصيص القالب الخاص بك، اتبع هذه الخطوات البسيطة:
+**DevFolio** is a ready-to-use, single-page application (SPA) portfolio template crafted specifically for developers. It features a modern dark theme with neon cyan and purple accents, glassmorphism elements, and smooth scroll animations. 
 
-### 1. استنساخ المشروع (Clone)
+The goal is simple: Fork the repo, update your details in a single configuration file, and deploy it to Vercel in seconds. No complex build tools or messy code diving required!
+
+---
+
+## 💎 Key Features
+
+- 🌓 **Dark / Light Mode:** Fully integrated theme toggler with `localStorage` memory and system preference detection.
+- ⌨️ **Dynamic Typing Effect:** Eye-catching animated job titles that you can customize easily.
+- 🧊 **Glassmorphism UI:** Modern frosted glass effects and beautiful gradient backgrounds.
+- 📜 **Scroll Animations:** Elements smoothly reveal themselves as the user scrolls down.
+- 📊 **Interactive Stats & Skills:** Animated progress bars and a dynamic stats counter.
+- ⏱️ **Experience Timeline:** A clean, professional vertical timeline to showcase your work history and education.
+- 📨 **Telegram Contact Form:** A built-in contact form that sends messages directly to your Telegram bot (includes validation).
+- 📱 **100% Responsive:** Looks perfect on desktops, tablets, and mobile devices.
+- ⚡ **SEO & Performance:** Optimized structure with JSON-LD structured data included.
+
+---
+
+## 🛠️ Quick Start Guide
+
+Follow these steps to get your portfolio up and running locally.
+
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/omarmetman/devfolio-template.git
 cd devfolio-template
 ```
 
-### 2. تخصيص بياناتك الأساسية
-كل الإعدادات الديناميكية موجودة في ملف `script.js` داخل كائن `CONFIG`:
+### 2. Personalize Your Data
+All major configurations are centralized. Open `script.js` and locate the `CONFIG` object:
 ```javascript
 const CONFIG = {
-  name: "Your Name", // اسمك هنا
-  titles: ["Full Stack Developer", "Open Source Enthusiast"], // ألقابك
+  name: "Your Name",
+  titles: ["Full Stack Developer", "Open Source Enthusiast", "UI/UX Designer"],
   typingSpeed: 80,
   deletingSpeed: 40,
   pauseAfterWord: 2000,
 };
 ```
 
-### 3. تعديل المحتوى (HTML)
-افتح ملف `index.html` وقم بتغيير:
-- روابط السوشيال ميديا الخاصة بك.
-- تفاصيل المشاريع (الصور، العناوين، والروابط).
-- معلومات التواصل (البريد الإلكتروني، رقم الهاتف).
-- الـ Meta Tags في الـ `<head>` لـ SEO.
+### 3. Update the HTML Content
+Open `index.html` to update:
+- Social media links (GitHub, LinkedIn, etc.)
+- Project cards (Images, Titles, Descriptions, Links)
+- Contact email and phone number
+- Website `<title>` and meta descriptions.
 
-### 4. إعداد نموذج التواصل (Telegram) *اختياري*
-إذا كنت تريد تفعيل إرسال الرسائل من نموذج التواصل مباشرة إلى تليجرام، افتح `script.js` وقم بتعديل هذه المتغيرات:
+### 4. Setup Telegram Form (Optional)
+To receive messages directly to your Telegram, update these variables in `script.js`:
 ```javascript
-// احصل عليهم من @BotFather و @userinfobot
-const BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"; 
-const CHAT_ID = "YOUR_CHAT_ID_HERE";
+const BOT_TOKEN = "YOUR_BOT_TOKEN";
+const CHAT_ID = "YOUR_CHAT_ID";
 ```
-*(ملاحظة: يمكنك حذف الكود الخاص بها إذا كنت تفضل استخدام خدمة أخرى مثل Formspree).*
+*If you prefer not to use this feature, simply remove or comment out the related code.*
 
 ---
 
-## 📂 Project Structure (هيكل المشروع)
+## 🚢 Deployment
+
+This template is optimized for zero-config deployment on **Vercel** via the included `vercel.json` file.
+
+1. Commit your changes:
+   ```bash
+   git add .
+   git commit -m "Personalize portfolio"
+   git push origin main
+   ```
+2. Go to your [Vercel Dashboard](https://vercel.com/dashboard).
+3. Click **Add New Project** and import your repository.
+4. Click **Deploy**. Your site will be live in seconds!
+
+---
+
+## 📂 Folder Structure
 
 ```text
 devfolio-template/
-├── index.html      # الهيكل الأساسي والمحتوى (SPA)
-├── style.css       # التصميم (يدعم الوضعين الليلي والنهاري)
-├── script.js       # التفاعلات، تأثيرات الحركة، وإرسال البيانات
-├── vercel.json     # إعدادات التوجيه (Routing) لـ Vercel
-├── package.json    # معلومات المشروع
-├── LICENSE         # رخصة الاستخدام (MIT)
-└── README.md       # هذا الملف (دليل الاستخدام)
+├── index.html      # Main HTML and content
+├── style.css       # Styling, animations, and theming
+├── script.js       # Core logic, config, and form handling
+├── vercel.json     # Vercel routing configuration
+├── package.json    # Project metadata
+├── LICENSE         # MIT License
+└── README.md       # Documentation
 ```
 
 ---
 
-## 🌐 Deployment (الرفع والنشر)
+## 🤝 Contributing
 
-هذا القالب مصمم ليكون جاهزاً للرفع المباشر على **Vercel** بفضل ملف `vercel.json` المدمج.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-```bash
-# احفظ تعديلاتك
-git add .
-git commit -m "Personalize my portfolio"
-git push origin main
-```
-بعد رفع الكود على GitHub، توجه إلى حسابك في Vercel، قم بإنشاء مشروع جديد، واختر المستودع الخاص بك. الموقع سيكون متاحاً للعالم في ثوانٍ!
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
-## 🤝 Contributing (ساهم معنا)
+## 📄 License
 
-هل لديك فكرة لتحسين القالب؟ نحن نرحب بمساهمات الجميع!
-1. قم بعمل **Fork** للمستودع.
-2. أنشئ فرعاً جديداً (`git checkout -b feature/CoolFeature`).
-3. احفظ تعديلاتك (`git commit -m 'Add some CoolFeature'`).
-4. ارفع الفرع (`git push origin feature/CoolFeature`).
-5. افتح **Pull Request**.
+Distributed under the **MIT License**. Use it for your personal or commercial projects freely.
 
----
+<br>
 
 <div align="center">
-  Distributed under the <b>MIT License</b>. You are free to use it for personal or commercial projects.
+  <b>Made in Egypt 🇪🇬</b>
   <br><br>
-  <b>Developed by Omar M. Etman</b>
+  Developed by <b>Omar M. Etman</b>
   <br><br>
   <a href="https://github.com/omarmetman">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -155,6 +149,4 @@ git push origin main
   <a href="https://omarmetman.vercel.app/">
     <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=Vercel&logoColor=white" alt="Website" />
   </a>
-  <br><br>
-  <b>صُنع في مصر 🇪🇬</b>
 </div>

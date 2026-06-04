@@ -1,98 +1,104 @@
-markdown_content = """<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=180&section=header&text=DevFolio%20v2&fontSize=65&fontColor=00e5ff&animation=twinkling" alt="DevFolio Banner" width="100%" />
+<div align="center">
 
-  <br>
-  
-  <p align="center">
-    <code><b>⚡ Premium Minimalist Dark Theme Portfolio Template for Developers ⚡</b></code>
-  </p>
+# ✦ DevFolio Template ✦
 
-  <p align="center">
-    <a href="https://github.com/omarmetman/devfolio-template/stargazers">
-      <img src="https://img.shields.io/github/stars/omarmetman/devfolio-template?style=for-the-badge&labelColor=12131C&color=00e5ff&logo=github&logoColor=00e5ff" alt="Stars" />
-    </a>
-    <a href="https://github.com/omarmetman/devfolio-template/network/members">
-      <img src="https://img.shields.io/github/forks/omarmetman/devfolio-template?style=for-the-badge&labelColor=12131C&color=9d00ff&logo=github&logoColor=9d00ff" alt="Forks" />
-    </a>
-    <a href="https://opensource.org/licenses/MIT">
-      <img src="https://img.shields.io/badge/License-MIT-00e5ff?style=for-the-badge&labelColor=12131C&logo=opensourceinitiative&logoColor=00e5ff" alt="License">
-    </a>
-  </p>
+<p align="center">
+  <b>A hyper-minimal, lightning-fast, and highly customizable portfolio template for developers.</b>
+</p>
 
-  <br>
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fomarmetman%2Fdevfolio-template)
 
-  <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fomarmetman%2Fdevfolio-template">
-    <img src="https://vercel.com/button" alt="Deploy with Vercel" height="38" />
-  </a>
+<br>
 
-  <br><br>
+<p align="center">
+  <a href="https://github.com/omarmetman/devfolio-template/stargazers"><img src="https://img.shields.io/github/stars/omarmetman/devfolio-template?style=for-the-badge&color=000000&logo=github&logoColor=white" alt="Stars" /></a>
+  <a href="https://github.com/omarmetman/devfolio-template/network/members"><img src="https://img.shields.io/github/forks/omarmetman/devfolio-template?style=for-the-badge&color=000000&logo=github&logoColor=white" alt="Forks" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-000000?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License"></a>
+</p>
 
-  ---
-  
-  <code><a href="#-visual-preview">Preview</a></code> • 
-  <code><a href="#-architecture--core-features">Features</a></code> • 
-  <code><a href="#-quick-start">Quick Start</a></code> • 
-  <code><a href="#-deployment">Deployment</a></code>
-  
-  ---
 </div>
 
 <br>
 
-## 📸 Visual Preview
+## 🖼️ Visual Tour
+
+<p align="center">
+  <img src="https://i.ibb.co/MDTgMwFh/Screenshot-2026-06-04-183329.png" width="49%" alt="Hero Section" />
+  <img src="https://i.ibb.co/q3Y0vrHM/Screenshot-2026-06-04-183343.png" width="49%" alt="About Section" />
+</p>
+<p align="center">
+  <img src="https://i.ibb.co/hRJJLjsx/Screenshot-2026-06-04-183354.png" width="49%" alt="Experience Timeline" />
+  <img src="https://i.ibb.co/VpTXRPVb/Screenshot-2026-06-04-183404.png" width="49%" alt="Contact Form" />
+</p>
+
+<br>
+
+## 💡 Why DevFolio?
+
+We believe your portfolio should highlight **your work**, not distract from it. DevFolio provides a sleek, dark-themed canvas engineered for performance and aesthetics.
+
+* **Zero Build Tools:** No Webpack, no Babel, no complex setups. Just raw, optimized HTML/CSS/JS.
+* **One-File Configuration:** Update your entire site (names, titles, animation speeds) from a single `CONFIG` object.
+* **Built-in Integrations:** Direct Telegram contact form mapping without needing a backend server.
+* **Instant Deployment:** Natively configured for Vercel. Push to GitHub and go live in seconds.
+
+<br>
+
+## ⚙️ Quick Start
+
+### 1. Clone & Setup
+```bash
+git clone https://github.com/omarmetman/devfolio-template.git
+cd devfolio-template
+```
+
+### 2. Configure Global Settings
+Open `script.js` and edit the configuration block at the top:
+```javascript
+const CONFIG = {
+  name: "Your Name",
+  titles: ["Full Stack Developer", "Open Source Enthusiast", "UI/UX Designer"],
+  typingSpeed: 80,
+  deletingSpeed: 40,
+  pauseAfterWord: 2000,
+};
+```
+
+### 3. Setup Telegram Forwarding (Optional)
+Receive contact form submissions directly to your phone. Inside `script.js`:
+```javascript
+const BOT_TOKEN = "YOUR_BOT_TOKEN_HERE";
+const CHAT_ID = "YOUR_CHAT_ID_HERE";
+```
+
+### 4. Deploy
+1. Commit your changes and push to your repository.
+2. Import the repository in [Vercel](https://vercel.com/new).
+3. Click deploy. That's it!
+
+<br>
+
+## 🛠️ Stack & Architecture
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,github,vercel" alt="Tech Stack" />
+</p>
+
+* **Frontend:** HTML5, CSS3 (Custom Properties & Flexbox/Grid), Vanilla JavaScript (ES6+).
+* **Animations:** Native CSS Transitions & Intersection Observer API for scroll reveals.
+* **Form Handling:** Async/Await Fetch API interacting with Telegram's Bot API.
+
+<br>
+
+## 📝 License & Credits
+
+Released under the [MIT License](LICENSE). 
 
 <div align="center">
-  <table style="border-collapse: collapse; border: none; width: 100%;">
-    <tr style="border: none;">
-      <td width="50%" style="border: none; padding: 5px;">
-        <img src="https://i.ibb.co/MDTgMwFh/Screenshot-2026-06-04-183329.png" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,229,255,0.15);" alt="Hero Showcase">
-      </td>
-      <td width="50%" style="border: none; padding: 5px;">
-        <img src="https://i.ibb.co/q3Y0vrHM/Screenshot-2026-06-04-183343.png" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(157,0,255,0.15);" alt="Stats & About">
-      </td>
-    </tr>
-    <tr style="border: none;">
-      <td width="50%" style="border: none; padding: 5px;">
-        <img src="https://i.ibb.co/hRJJLjsx/Screenshot-2026-06-04-183354.png" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,229,255,0.15);" alt="Experience Timeline">
-      </td>
-      <td width="50%" style="border: none; padding: 5px;">
-        <img src="https://i.ibb.co/VpTXRPVb/Screenshot-2026-06-04-183404.png" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(157,0,255,0.15);" alt="Contact & Footer">
-      </td>
-    </tr>
-  </table>
+  <hr>
+  <b>Developed with precision by Omar M. Etman</b><br>
+  Proudly Made in Egypt 🇪🇬
+  <br><br>
+  <a href="https://github.com/omarmetman">GitHub</a> • 
+  <a href="https://omarmetman.vercel.app/">Portfolio</a>
 </div>
-
----
-
-## 🌌 Overview
-
-**DevFolio** is a cutting-edge, single-page developer portfolio built with a futuristic dark aesthetic. Powered by clean layouts, smooth interactive behaviors, and neon accents, it strikes the perfect balance between professional presentation and visual creativity.
-
-> [!TIP]
-> **Zero Complex Build Steps:** This template requires no complex node compilation or bundlers during development. Just configure a single JavaScript object, tweak your HTML content, and you are ready to publish.
-
----
-
-## ⚡ Architecture & Core Features
-
-* **🌓 Adaptive Theming Matrix:** Seamless Light/Dark mode switcher with intelligent state caching via `localStorage` and default system preference matching.
-* **🧊 Glassmorphism UI Components:** Ultra-clean frosted glass aesthetics layered over deep dark canvases, accented with vibrant cyan and violet gradients.
-* **✨ Fluid Scroll Dynamics:** Immersive scroll-reveal animations that seamlessly transition interface elements into view as the user scrolls.
-* **⌨️ Automated Typist Engine:** Configurable custom typing effects to showcase multiple professional titles or expert disciplines.
-* **📊 Dynamic Metric Counter:** Smooth numerical counter animations that engage visitors right at the statistics board.
-* **📨 Telegram Gateway integration:** Built-in contact form pipeline that validates submissions and instantly forwards them directly to your private Telegram client.
-* **⚡ Search Engine Optimization:** Pre-packaged JSON-LD structured schema data to maximize visibility and indexing on search engines.
-
----
-
-## 🛠️ Integrated Tech Ecosystem
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,github,vercel&theme=dark" alt="Ecosystem Stack" />
-</div>
-
----
-
-## 🚀 Quick Start
-
-### 1. Initialize Workspace
